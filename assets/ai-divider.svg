@@ -12,7 +12,12 @@
         <feMergeNode in="SourceGraphic"/>
       </feMerge>
     </filter>
+    <pattern id="scanlines" width="4" height="4" patternUnits="userSpaceOnUse">
+      <line x1="0" y1="0" x2="4" y2="0" stroke="#ffffff" stroke-width="1" opacity="0.04"/>
+    </pattern>
   </defs>
+  
+  <rect width="1080" height="180" fill="url(#scanlines)" pointer-events="none"/>
   
   <line x1="100" y1="90" x2="980" y2="90" stroke="url(#aiGrad)" stroke-width="1.5" opacity="0.6"/>
   
@@ -47,6 +52,16 @@
     <animate attributeName="opacity" values="0.3;0.6;0.3" dur="2.9s" repeatCount="indefinite"/>
   </line>
   
+  <text x="537" y="45" font-family="Arial, sans-serif" font-size="22" font-weight="600" fill="#ff003c" text-anchor="middle" opacity="0.8">
+    <animate attributeName="x" values="537; 535; 537; 545; 537" dur="3s" keyTimes="0; 0.1; 0.15; 0.2; 1" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0; 0.8; 0; 0.8; 0" dur="3s" keyTimes="0; 0.1; 0.15; 0.2; 1" repeatCount="indefinite"/>
+    Focused on AI-Driven Innovation
+  </text>
+  <text x="543" y="45" font-family="Arial, sans-serif" font-size="22" font-weight="600" fill="#00f0ff" text-anchor="middle" opacity="0.8">
+    <animate attributeName="x" values="543; 545; 543; 535; 543" dur="3.1s" keyTimes="0; 0.15; 0.2; 0.25; 1" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0; 0.8; 0; 0.8; 0" dur="3.1s" keyTimes="0; 0.15; 0.2; 0.25; 1" repeatCount="indefinite"/>
+    Focused on AI-Driven Innovation
+  </text>
   <text x="540" y="45" font-family="Arial, sans-serif" font-size="22" font-weight="600" fill="url(#aiGrad)" text-anchor="middle" filter="url(#aiGlow)">
     Focused on AI-Driven Innovation
   </text>
