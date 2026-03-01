@@ -18,7 +18,7 @@
 <img src="./assets/tech-grid.svg" width="95%" alt="Tech Grid">
 </div>
 
-<br><br>
+<br>
 
 <div align="center">
 <img src="./assets/ai-divider.svg" width="90%" alt="AI Focus">
@@ -50,7 +50,7 @@
 <img src="./assets/contact-card.svg" width="90%" alt="Contact">
 </div>
 
-<br><br>
+<br>
 
 <div align="center">
 <img src="./assets/footer.svg" width="100%" alt="Footer">
