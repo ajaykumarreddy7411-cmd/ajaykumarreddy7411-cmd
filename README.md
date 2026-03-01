@@ -31,9 +31,10 @@
   
   <br>
 
-  <img src="https://github-readme-stats.vercel.app/api?username=ajaykumarreddy7411-cmd&show_icons=true&theme=radical&bg_color=0a0015&title_color=7a00ff&text_color=ffffff&icon_color=00f0ff&border_color=7a00ff&border_radius=10" alt="Ajay's GitHub Stats" />
+  <!--
+  <img src="https://github-readme-stats.vercel.app/api?username=ajaykumarreddy7411-cmd&show_icons=true&theme=radical&bg_color=0a0015&title_color=7a00ff&text_color=ffffff&icon_color=00f0ff&border_color=7a00ff&border_radius=10" alt="Ajay's GitHub Stats" /> 
   
-  <br><br>
+  <br><br>-->
 
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=ajaykumarreddy7411-cmd&theme=radical&background=0a0015&ring=7a00ff&fire=00f0ff&currStreakLabel=ffffff&border=7a00ff&stroke=7a00ff&currStreakNum=00f0ff&sideNums=ffffff&sideLabels=ffffff&dates=ffffff&border_radius=10" alt="Ajay's GitHub Streak" />
 
