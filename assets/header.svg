@@ -52,15 +52,15 @@
   <text x="597" y="180" font-family="Arial, sans-serif" font-size="72" font-weight="bold" fill="#ff003c" text-anchor="middle" opacity="0.8">
     <animate attributeName="x" values="597; 595; 597; 605; 597" dur="3s" keyTimes="0; 0.1; 0.15; 0.2; 1" repeatCount="indefinite"/>
     <animate attributeName="opacity" values="0; 0.8; 0; 0.8; 0" dur="3s" keyTimes="0; 0.1; 0.15; 0.2; 1" repeatCount="indefinite"/>
-    AJAY KUMAR
+    AJAY KUMAR S
   </text>
   <text x="603" y="180" font-family="Arial, sans-serif" font-size="72" font-weight="bold" fill="#00f0ff" text-anchor="middle" opacity="0.8">
     <animate attributeName="x" values="603; 605; 603; 595; 603" dur="3.1s" keyTimes="0; 0.15; 0.2; 0.25; 1" repeatCount="indefinite"/>
     <animate attributeName="opacity" values="0; 0.8; 0; 0.8; 0" dur="3.1s" keyTimes="0; 0.15; 0.2; 0.25; 1" repeatCount="indefinite"/>
-    AJAY KUMAR
+    AJAY KUMAR S
   </text>
   <text x="600" y="180" font-family="Arial, sans-serif" font-size="72" font-weight="bold" fill="url(#textGrad)" text-anchor="middle" filter="url(#glow)">
-    AJAY KUMAR
+    AJAY KUMAR S
   </text>
   
   <text x="600" y="240" font-family="Arial, sans-serif" font-size="20" fill="#ffffff" text-anchor="middle" opacity="0.9">
