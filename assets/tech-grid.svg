@@ -27,9 +27,13 @@
     <pattern id="techGrid" width="30" height="30" patternUnits="userSpaceOnUse">
       <path d="M 30 0 L 0 0 0 30" fill="none" stroke="#7a00ff" stroke-width="0.3" opacity="0.15"/>
     </pattern>
+    <pattern id="scanlines" width="4" height="4" patternUnits="userSpaceOnUse">
+      <line x1="0" y1="0" x2="4" y2="0" stroke="#ffffff" stroke-width="1" opacity="0.04"/>
+    </pattern>
   </defs>
   
   <rect width="1140" height="560" fill="url(#techGrid)"/>
+  <rect width="1140" height="560" fill="url(#scanlines)" pointer-events="none"/>
   
   <g>
     <rect x="70" y="30" width="240" height="90" fill="url(#badgeGrad1)" stroke="#7a00ff" stroke-width="2" rx="10" filter="url(#techGlow)">
@@ -114,6 +118,16 @@
     </circle>
   </g>
   
+  <text x="567" y="375" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#ff003c" text-anchor="middle" opacity="0.8">
+    <animate attributeName="x" values="567; 565; 567; 575; 567" dur="3s" keyTimes="0; 0.1; 0.15; 0.2; 1" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0; 0.8; 0; 0.8; 0" dur="3s" keyTimes="0; 0.1; 0.15; 0.2; 1" repeatCount="indefinite"/>
+    ENGINEERING STUDENT
+  </text>
+  <text x="573" y="375" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#00f0ff" text-anchor="middle" opacity="0.8">
+    <animate attributeName="x" values="573; 575; 573; 565; 573" dur="3.1s" keyTimes="0; 0.15; 0.2; 0.25; 1" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0; 0.8; 0; 0.8; 0" dur="3.1s" keyTimes="0; 0.15; 0.2; 0.25; 1" repeatCount="indefinite"/>
+    ENGINEERING STUDENT
+  </text>
   <text x="570" y="375" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="url(#neuralGrad)" text-anchor="middle" filter="url(#techGlow)">
     ENGINEERING STUDENT
   </text>
