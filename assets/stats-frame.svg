@@ -1,0 +1,39 @@
+<svg width="1140" height="520" viewBox="0 0 1140 520" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="frameBorder" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#7a00ff;stop-opacity:0.8" />
+      <stop offset="50%" style="stop-color:#00f0ff;stop-opacity:0.8" />
+      <stop offset="100%" style="stop-color:#7a00ff;stop-opacity:0.8" />
+    </linearGradient>
+    <linearGradient id="frameBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0a0015;stop-opacity:0.4" />
+      <stop offset="100%" style="stop-color:#1a0033;stop-opacity:0.4" />
+    </linearGradient>
+  </defs>
+  
+  <rect width="1140" height="520" fill="#0a0015" rx="12"/>
+  <rect x="3" y="3" width="1134" height="514" fill="url(#frameBg)" rx="10"/>
+  <rect x="0" y="0" width="1140" height="520" fill="none" stroke="url(#frameBorder)" stroke-width="3" rx="12" opacity="0.9">
+    <animate attributeName="opacity" values="0.7;1;0.7" dur="4s" repeatCount="indefinite"/>
+  </rect>
+  
+  <text x="570" y="50" font-family="Arial, sans-serif" font-size="28" font-weight="bold" fill="#ffffff" text-anchor="middle">
+    GitHub Analytics
+  </text>
+  
+  <line x1="420" y1="65" x2="720" y2="65" stroke="url(#frameBorder)" stroke-width="2" opacity="0.6"/>
+  
+  <foreignObject x="70" y="100" width="1000" height="380">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; flex-direction: column; align-items: center; gap: 20px;">
+      <img src="https://github-readme-stats.vercel.app/api?username=ajaykumarreddy7411-cmd&show_icons=true&theme=radical&bg_color=0a0015&title_color=7a00ff&text_color=ffffff&icon_color=00f0ff&border_color=7a00ff&border_radius=10" alt="GitHub Stats" style="width: 495px; height: auto;"/>
+      <img src="https://github-readme-streak-stats.herokuapp.com/?user=ajaykumarreddy7411-cmd&theme=radical&background=0a0015&ring=7a00ff&fire=00f0ff&currStreakLabel=ffffff&border=7a00ff&stroke=7a00ff&currStreakNum=00f0ff&sideNums=ffffff&sideLabels=ffffff&dates=ffffff&border_radius=10" alt="GitHub Streak" style="width: 495px; height: auto;"/>
+    </div>
+  </foreignObject>
+  
+  <circle cx="50" cy="260" r="4" fill="#7a00ff" opacity="0.6">
+    <animate attributeName="opacity" values="0.4;0.8;0.4" dur="3s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="1090" cy="260" r="4" fill="#00f0ff" opacity="0.6">
+    <animate attributeName="opacity" values="0.4;0.8;0.4" dur="3.5s" repeatCount="indefinite"/>
+  </circle>
+</svg>
