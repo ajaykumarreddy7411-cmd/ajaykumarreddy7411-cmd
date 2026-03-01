@@ -5,8 +5,23 @@
       <stop offset="50%" style="stop-color:#00f0ff;stop-opacity:1" />
       <stop offset="100%" style="stop-color:#7a00ff;stop-opacity:1" />
     </linearGradient>
+    <pattern id="scanlines" width="4" height="4" patternUnits="userSpaceOnUse">
+      <line x1="0" y1="0" x2="4" y2="0" stroke="#ffffff" stroke-width="1" opacity="0.04"/>
+    </pattern>
   </defs>
   
+  <rect width="960" height="100" fill="url(#scanlines)" pointer-events="none"/>
+  
+  <text x="477" y="55" font-family="Arial, sans-serif" font-size="42" font-weight="bold" fill="#ff003c" text-anchor="middle" opacity="0.8">
+    <animate attributeName="x" values="477; 475; 477; 485; 477" dur="3s" keyTimes="0; 0.1; 0.15; 0.2; 1" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0; 0.8; 0; 0.8; 0" dur="3s" keyTimes="0; 0.1; 0.15; 0.2; 1" repeatCount="indefinite"/>
+    Technology Stack
+  </text>
+  <text x="483" y="55" font-family="Arial, sans-serif" font-size="42" font-weight="bold" fill="#00f0ff" text-anchor="middle" opacity="0.8">
+    <animate attributeName="x" values="483; 485; 483; 475; 483" dur="3.1s" keyTimes="0; 0.15; 0.2; 0.25; 1" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0; 0.8; 0; 0.8; 0" dur="3.1s" keyTimes="0; 0.15; 0.2; 0.25; 1" repeatCount="indefinite"/>
+    Technology Stack
+  </text>
   <text x="480" y="55" font-family="Arial, sans-serif" font-size="42" font-weight="bold" fill="url(#techGrad)" text-anchor="middle">
     Technology Stack
   </text>
