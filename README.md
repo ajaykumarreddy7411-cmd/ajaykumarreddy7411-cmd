@@ -26,11 +26,8 @@
 
 <br>
 
-<!-- <div align="center">
-<img src="./assets/stats-frame.svg" width="95%" alt="GitHub Stats">
-</div> -->
 <div align="center">
-  <h2 style="color: #00f0ff;">⚡ GitHub Analytics ⚡</h2>
+  <img src="./assets/stats-banner.svg" width="95%" alt="GitHub Analytics Banner">
   
   <br>
 
