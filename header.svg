@@ -1,0 +1,79 @@
+<svg width="100%" height="200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="gradient1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <animate attributeName="x1" values="0%;100%;0%" dur="10s" repeatCount="indefinite" />
+      <animate attributeName="y1" values="0%;100%;0%" dur="10s" repeatCount="indefinite" />
+      <animate attributeName="x2" values="100%;0%;100%" dur="10s" repeatCount="indefinite" />
+      <animate attributeName="y2" values="100%;0%;100%" dur="10s" repeatCount="indefinite" />
+      <stop offset="0%" style="stop-color:#A78BFA;stop-opacity:1">
+        <animate attributeName="stop-color" values="#A78BFA;#06B6D4;#A78BFA" dur="5s" repeatCount="indefinite" />
+      </stop>
+      <stop offset="100%" style="stop-color:#06B6D4;stop-opacity:1">
+        <animate attributeName="stop-color" values="#06B6D4;#A78BFA;#06B6D4" dur="5s" repeatCount="indefinite" />
+      </stop>
+    </linearGradient>
+    
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="100%" height="200" fill="#0D1117"/>
+  
+  <!-- Animated circles -->
+  <circle cx="10%" cy="50%" r="30" fill="url(#gradient1)" opacity="0.3" filter="url(#glow)">
+    <animate attributeName="r" values="30;40;30" dur="4s" repeatCount="indefinite" />
+    <animate attributeName="opacity" values="0.3;0.5;0.3" dur="4s" repeatCount="indefinite" />
+  </circle>
+  
+  <circle cx="90%" cy="50%" r="40" fill="url(#gradient1)" opacity="0.3" filter="url(#glow)">
+    <animate attributeName="r" values="40;50;40" dur="5s" repeatCount="indefinite" />
+    <animate attributeName="opacity" values="0.3;0.5;0.3" dur="5s" repeatCount="indefinite" />
+  </circle>
+  
+  <circle cx="50%" cy="30%" r="20" fill="#06B6D4" opacity="0.2">
+    <animate attributeName="cy" values="30%;40%;30%" dur="6s" repeatCount="indefinite" />
+    <animate attributeName="opacity" values="0.2;0.4;0.2" dur="6s" repeatCount="indefinite" />
+  </circle>
+  
+  <!-- Main text -->
+  <text x="50%" y="40%" font-family="'Courier New', monospace" font-size="48" font-weight="bold" fill="url(#gradient1)" text-anchor="middle" filter="url(#glow)">
+    Ajay Kumar
+  </text>
+  
+  <text x="50%" y="55%" font-family="'Courier New', monospace" font-size="20" fill="#E2E8F0" text-anchor="middle" opacity="0.8">
+    Full Stack Developer &amp; AI Enthusiast
+  </text>
+  
+  <!-- Decorative lines -->
+  <line x1="30%" y1="65%" x2="70%" y2="65%" stroke="url(#gradient1)" stroke-width="2" opacity="0.6">
+    <animate attributeName="x1" values="30%;25%;30%" dur="3s" repeatCount="indefinite" />
+    <animate attributeName="x2" values="70%;75%;70%" dur="3s" repeatCount="indefinite" />
+  </line>
+  
+  <!-- Floating particles -->
+  <circle cx="20%" cy="20%" r="2" fill="#A78BFA">
+    <animate attributeName="cy" values="20%;80%;20%" dur="8s" repeatCount="indefinite" />
+    <animate attributeName="opacity" values="0;1;0" dur="8s" repeatCount="indefinite" />
+  </circle>
+  
+  <circle cx="80%" cy="80%" r="2" fill="#06B6D4">
+    <animate attributeName="cy" values="80%;20%;80%" dur="7s" repeatCount="indefinite" />
+    <animate attributeName="opacity" values="0;1;0" dur="7s" repeatCount="indefinite" />
+  </circle>
+  
+  <circle cx="15%" cy="70%" r="2" fill="#A78BFA">
+    <animate attributeName="cy" values="70%;30%;70%" dur="9s" repeatCount="indefinite" />
+    <animate attributeName="opacity" values="0;1;0" dur="9s" repeatCount="indefinite" />
+  </circle>
+  
+  <circle cx="85%" cy="30%" r="2" fill="#06B6D4">
+    <animate attributeName="cy" values="30%;70%;30%" dur="6s" repeatCount="indefinite" />
+    <animate attributeName="opacity" values="0;1;0" dur="6s" repeatCount="indefinite" />
+  </circle>
+</svg>
