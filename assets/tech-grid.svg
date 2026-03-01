@@ -40,8 +40,8 @@
       <animate attributeName="stroke-opacity" values="0.6;1;0.6" dur="4s" repeatCount="indefinite"/>
     </rect>
     <text x="85" y="55" font-family="Arial, sans-serif" font-size="14" font-weight="700" fill="#7a00ff" letter-spacing="1">LANGUAGES</text>
-    <text x="190" y="80" font-family="Arial, sans-serif" font-size="15" fill="#ffffff" text-anchor="middle">Python</text>
-    <text x="190" y="100" font-family="Arial, sans-serif" font-size="15" fill="#ffffff" text-anchor="middle">JavaScript • Java • C</text>
+    <text x="190" y="80" font-family="Arial, sans-serif" font-size="15" fill="#ffffff" text-anchor="middle">Java</text>
+    <text x="190" y="100" font-family="Arial, sans-serif" font-size="15" fill="#ffffff" text-anchor="middle">JavaScript • Python • C</text>
   </g>
   
   <g>
