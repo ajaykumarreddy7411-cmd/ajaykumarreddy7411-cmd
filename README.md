@@ -43,13 +43,13 @@
 <br><br>
 
 <div align="center">
-<a href="https://fun-ai-portfolio.vercel.app" target="_blank">
-  <img src="./assets/contact-card.svg" width="90%" alt="Contact">
-</a>
+<img src="./assets/contact-header.svg" width="70%" alt="Connect">
 </div>
 
 <div align="center">
-<img src="./assets/contact-card.svg" width="90%" alt="Contact">
+<a href="https://fun-ai-portfolio.vercel.app" target="_blank">
+  <img src="./assets/contact-card.svg" width="90%" alt="Contact">
+</a>
 </div>
 
 <br>
