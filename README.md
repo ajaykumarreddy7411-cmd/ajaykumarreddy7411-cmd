@@ -36,7 +36,7 @@
   
   <br><br>-->
 
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=ajaykumarreddy7411-cmd&theme=radical&background=0a0015&ring=7a00ff&fire=00f0ff&currStreakLabel=ffffff&border=7a00ff&stroke=7a00ff&currStreakNum=00f0ff&sideNums=ffffff&sideLabels=ffffff&dates=ffffff&border_radius=10" alt="Ajay's GitHub Streak" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=AjayKumar-Reddy&theme=radical&background=0a0015&ring=7a00ff&fire=00f0ff&currStreakLabel=ffffff&border=7a00ff&stroke=7a00ff&currStreakNum=00f0ff&sideNums=ffffff&sideLabels=ffffff&dates=ffffff&border_radius=10" alt="Ajay's GitHub Streak" />
 
 </div>
 
